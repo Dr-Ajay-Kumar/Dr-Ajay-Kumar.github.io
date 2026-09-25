@@ -137,30 +137,47 @@ if (backTop) {
   });
 }
 
-// ── Mobile Navigation ──────────────────────────────────────────────────────────
-const hamburger = document.getElementById('hamburger');
-const mobileNav = document.getElementById('mobileNav');
+// ── Mobile Dropdown Menu Navigation ──────────────────────────────────────────
+const mobileMenuBtn     = document.getElementById('mobileMenuBtn') || document.getElementById('hamburger');
+const mobileNav         = document.getElementById('mobileNav');
+const mobileNavBackdrop = document.getElementById('mobileNavBackdrop');
 
-if (hamburger && mobileNav) {
-  hamburger.addEventListener('click', () => {
-    const isOpen = mobileNav.classList.toggle('open');
-    hamburger.classList.toggle('open', isOpen);
-    hamburger.setAttribute('aria-expanded', isOpen);
+function toggleMobileMenu(forceClose = false) {
+  if (!mobileNav || !mobileMenuBtn) return;
+  const shouldOpen = forceClose ? false : !mobileNav.classList.contains('open');
+  mobileNav.classList.toggle('open', shouldOpen);
+  mobileMenuBtn.classList.toggle('open', shouldOpen);
+  mobileMenuBtn.setAttribute('aria-expanded', shouldOpen ? 'true' : 'false');
+  if (mobileNavBackdrop) {
+    mobileNavBackdrop.classList.toggle('open', shouldOpen);
+  }
+}
+
+if (mobileMenuBtn && mobileNav) {
+  mobileMenuBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleMobileMenu();
   });
 
-  document.querySelectorAll('.mob-link').forEach(link => {
+  if (mobileNavBackdrop) {
+    mobileNavBackdrop.addEventListener('click', () => toggleMobileMenu(true));
+  }
+
+  document.querySelectorAll('.mob-link, .btn-mob-cv-primary, .btn-mob-cv-secondary').forEach(link => {
     link.addEventListener('click', () => {
-      mobileNav.classList.remove('open');
-      hamburger.classList.remove('open');
-      hamburger.setAttribute('aria-expanded', 'false');
+      toggleMobileMenu(true);
     });
   });
 
   document.addEventListener('click', (e) => {
-    if (!navbar.contains(e.target)) {
-      mobileNav.classList.remove('open');
-      hamburger.classList.remove('open');
-      hamburger.setAttribute('aria-expanded', 'false');
+    if (navbar && !navbar.contains(e.target)) {
+      toggleMobileMenu(true);
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileNav.classList.contains('open')) {
+      toggleMobileMenu(true);
     }
   });
 }
