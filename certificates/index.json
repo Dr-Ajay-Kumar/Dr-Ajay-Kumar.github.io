@@ -1,0 +1,136 @@
+{
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Doctor of Philosophy (Ph.D.) in Computer Science",
+      "issuer": "Usha Martin University, Ranchi (UGC Approved)",
+      "date": "Awarded 10 Feb 2023 | Issued 04 May 2023",
+      "credential": "Serial No: 000561 | Grade: A+",
+      "file": "cert-page-02.jpg",
+      "category": "academic",
+      "tag": "Doctorate",
+      "description": "Doctor of Philosophy in Computer Science on 'IoT Based Vehicle Accident Monitoring System using Raspberry Pi' with Grade A+."
+    },
+    {
+      "id": 2,
+      "title": "Fellow of IETE (FIETE)",
+      "issuer": "Institution of Electronics and Telecommunication Engineers, New Delhi",
+      "date": "December 2012",
+      "credential": "Membership No: F-037192 | Certificate No: 3215",
+      "file": "cert-page-03.jpg",
+      "category": "honour",
+      "tag": "Apex Fellowship",
+      "description": "Elected as Lifetime Fellow of IETE, apex national body for electronics, telecom and computer engineering in India."
+    },
+    {
+      "id": 3,
+      "title": "Chartered Engineer (IETE)",
+      "issuer": "Institution of Electronics and Telecommunication Engineers, New Delhi",
+      "date": "September 2022",
+      "credential": "Certificate No: CE/0275 | Membership: F-037192",
+      "file": "cert-page-17.jpg",
+      "category": "honour",
+      "tag": "Chartered Status",
+      "description": "Conferred the prestigious title of Chartered Engineer (CEng) by virtue of corporate membership, professional training and exemplary experience."
+    },
+    {
+      "id": 4,
+      "title": "AMIETCE — M.Tech Equivalent in Computer Science",
+      "issuer": "Institution of Electronics and Telecommunication Engineers, New Delhi",
+      "date": "October 2000",
+      "credential": "Reg No: 96123 | Cert No: 236 | 1st Division (72%)",
+      "file": "cert-page-04.jpg",
+      "category": "academic",
+      "tag": "M.Tech Equiv",
+      "description": "Advanced Level Course in Computer Science, recognized by Govt. of India as equivalent to M.Tech (CS) for superior central posts."
+    },
+    {
+      "id": 5,
+      "title": "5G Mobile Communications Certificate Course",
+      "issuer": "NTIPRIT, Department of Telecommunications (DoT), Govt. of India",
+      "date": "April 2023",
+      "credential": "Cert No: 2023WA5GCB4009 | DigiLocker Verified",
+      "file": "cert-page-12.jpg",
+      "category": "trainer",
+      "tag": "DoT Certified",
+      "description": "Master Trainer Certification in 5G Mobile Communications conducted by Wireless Access Division, NTIPRIT Ghaziabad."
+    },
+    {
+      "id": 6,
+      "title": "Certified Network Engineer for IPv6 (Gold)",
+      "issuer": "Global IPv6 Forum / NLTVC Education",
+      "date": "February 2021",
+      "credential": "Verification No: CNE6 2170020115",
+      "file": "cert-page-13.jpg",
+      "category": "trainer",
+      "tag": "IPv6 Gold",
+      "description": "Certified Network Engineer for IPv6 (Gold Level) under the Global IPv6 Forum Education Logo Program."
+    },
+    {
+      "id": 7,
+      "title": "Certified Network Engineer for IPv6 (Silver)",
+      "issuer": "Global IPv6 Forum / NLTVC Education",
+      "date": "February 2021",
+      "credential": "Verification No: CNE6 2170020111",
+      "file": "cert-page-15.jpg",
+      "category": "trainer",
+      "tag": "IPv6 Silver",
+      "description": "Certified Network Engineer for IPv6 (Silver Level) under the Global IPv6 Forum Education Logo Program."
+    },
+    {
+      "id": 8,
+      "title": "Advisory Board Member Induction",
+      "issuer": "Blockchain For Productivity Forum (BFPF), New Delhi",
+      "date": "May 2023",
+      "credential": "Apex Advisory Level",
+      "file": "cert-page-11.jpg",
+      "category": "leadership",
+      "tag": "Advisory Board",
+      "description": "Inducted into the Apex-level Advisory Board of BFPF for policy research, R&D, advocacy, and strategic development."
+    },
+    {
+      "id": 9,
+      "title": "Invited Talk Speaker — 5th IETE Innovators Meet",
+      "issuer": "Institution of Electronics and Telecommunication Engineers, New Delhi",
+      "date": "August 2021",
+      "credential": "Theme: Aerospace & Defence",
+      "file": "cert-page-10.jpg",
+      "category": "academic",
+      "tag": "Keynote Speaker",
+      "description": "Invited Talk Speaker on 'Modern Communication - Broadband Access Technology for Defense Networks' towards Atmanirbhar Bharat."
+    },
+    {
+      "id": 10,
+      "title": "CGM BSNL Commendation & Exemplary Service Letter",
+      "issuer": "Chief General Manager, BSNL Jharkhand Telecom Circle",
+      "date": "January 2020",
+      "credential": "Executive Order & Commendation",
+      "file": "cert-page-05.jpg",
+      "category": "leadership",
+      "tag": "Exemplary Service",
+      "description": "Official commendation certifying 26 years 11 months of loyal, dependable, and exemplary service in DoT and BSNL."
+    },
+    {
+      "id": 11,
+      "title": "DoT / BSNL 27-Year Service Chronological Record",
+      "issuer": "Department of Telecommunications & BSNL, Ranchi",
+      "date": "January 2020",
+      "credential": "Executive Service Chronology",
+      "file": "cert-page-06.jpg",
+      "category": "leadership",
+      "tag": "Service Record",
+      "description": "Complete verified official record of postings from 1995 to 2020 covering DOTSOFT, NIB A1 Node, Apex Training, AGM HR & Admin."
+    },
+    {
+      "id": 12,
+      "title": "Military College of EME (MCEME) Service & Teaching",
+      "issuer": "Corps of Electrical & Mechanical Engineers, Indian Army",
+      "date": "January 1992",
+      "credential": "MCEME Secunderabad",
+      "file": "cert-page-01.jpg",
+      "category": "academic",
+      "tag": "Defence & Academia",
+      "description": "Technical instruction and electronics engineering experience in telecommunication, microprocessors, and defence communications."
+    }
+  ]
+}
